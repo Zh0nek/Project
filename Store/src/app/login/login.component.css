@@ -1,0 +1,78 @@
+body {
+  /* background: rgb(197, 148, 197); */
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.first,
+.signup, 
+.logout{
+  background: #812836;
+  border: 3px solid #94c0c2;
+  border-radius: 10px;
+  padding: 40px 40px 20px;
+  width: 350px;
+  position: relative;
+  top: 100px;
+}
+
+.input {
+  margin-bottom: 5px;
+}
+
+.in {
+  width: 100%;
+  background-color: #94c0c2; 
+  border-bottom: 2px solid #94c0c2;
+  border-top: 2px solid #94c0c2;
+  border-left: 2px solid #94c0c2;
+  border-right: 2px solid #94c0c2;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #262626;
+  padding: 10px;
+}
+
+.first {
+  margin: 10px auto;
+  padding: 25px 40px;
+  text-align: center;
+  color: #262626;
+}
+
+.logout{
+  left:455px; 
+  margin: 10px auto;
+  padding: 25px 40px;
+  text-align: center;
+}
+
+button{
+  padding: 10px 0;
+  font-size: 18px;
+  font-family: bahnschrift;
+  border-bottom: 2px solid #94c0c2;
+  border-top: 2px solid #94c0c2;
+  border-left: 2px solid #94c0c2;
+  border-right: 2px solid #94c0c2;
+  width: 100%;
+  min-width: 100px;
+  color: #ffffff;
+  background: #38A99A;
+  border-radius: 10px;
+  position: relative;
+  left: 2px;
+  top: 10px;
+}
+button:hover{
+  background: #69a4a2;
+}

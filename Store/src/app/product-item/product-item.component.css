@@ -1,0 +1,169 @@
+#width{
+  width: 300px;
+  font-style: italic
+}
+#des{
+  text-align:inherit;
+  min-height: 80px;
+  font-size: 20px;
+  position:absolute;
+  bottom: 150px;
+  left:590px;
+  width: 500px;
+  height: 190px;
+  font-style: italic;
+  margin: 90px;
+  background-color: ivory;
+  padding: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  color:teal;
+}
+h2 {
+  display: inline;
+  color:white;
+  font-style: italic;
+}
+#top{
+  font-size: 30px;
+}
+button{
+  background-color: rgb(48, 179, 179);
+  border-color: rgb(170, 207, 207);
+  border-radius: 10px;
+  font-size: 20px;
+  color: aliceblue;
+  font-family:  Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+.btnShare{
+  font-size: 20px;;
+  display: inline;
+  color: #c7e0da;
+  font-style: italic;
+  position: relative;
+  bottom: 32px;
+  left: 170px;
+
+}
+h1,h2,h3,h4{
+  font-style: italic;
+  padding: 10px;
+}
+div {
+  background-color: #94c0c2;
+  color:white;
+  font-style: italic;
+  padding: 10px;
+}
+img{
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+h4{
+  position:relative;
+  right: 100px;
+  padding-right: 50px;
+  margin: 0;
+}
+
+h4:hover{
+  border-bottom: 1px solid white;
+}
+.feedback{
+  font-size: 30px;
+}
+.main-area {
+  padding-top: 64px;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-align: left;
+  position: relative;
+}
+
+.main-area h1 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: bahnschrift;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -25px;
+  font-weight: bold;
+}
+
+.bugaga{
+  padding: 10px 0;
+  font-size: 18px;
+  font-family: bahnschrift;
+  border-bottom: 2px solid #94c0c2;
+  border-top: 2px solid #94c0c2;
+  border-left: 2px solid #94c0c2;
+  border-right: 2px solid #94c0c2;
+  width: 150px;
+  color: #ffffff;
+  background: #38A99A;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+}
+.bugaga:hover{
+  background: #69a4a2;
+}
+.main-area {
+  position: relative;
+  border-radius: 10px;
+  left: 10px;
+  max-width: 800px;
+  max-height: 300px;
+  margin: 50px auto 0;
+  padding: 20px;
+  background: #DA635C;
+  font-size: 18px;
+  font-family: bahnschrift;
+}
+
+.main-area h3, .comments2 {
+  position: relative;
+  border-radius: 10px;
+  padding: 7px;
+  margin-bottom: 220px;
+}
+.mb-3, .comments2 {
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 120px;
+  padding: 10px;
+}
+.mb-3 input, .mb-3 label, .mb-3 textarea {
+  position: relative;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+}
+.mb-3 input {
+  position: relative;
+  border-radius: 10px;
+  padding: 0;
+  line-height: 30px;
+  border-width: 0;
+}
+.comments {
+  position: relative;
+  border-radius: 10px;
+  left: 10px;
+  max-width: 800px;
+  margin: 30px auto 0;
+  padding: 20px;
+  background: #DA635C;
+  font-size: 18px;
+  font-family: bahnschrift;
+}
+.comments2{
+  border-bottom: 2px solid #94c0c2;
+  border-top: 2px solid #94c0c2;
+  border-left: 2px solid #94c0c2;
+  border-right: 2px solid #94c0c2;
+  margin: 10px;
+}

@@ -1,0 +1,41 @@
+.wrapper{ 
+    height: 308px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 70px;
+    color: #000000;
+    font-size: 17px;
+}
+.info{
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 90px;
+    margin-right: 200px;
+    margin-top:-230px ;
+    margin-bottom: 30px;
+    border: 4px solid black; 
+    padding: 20px;
+    padding-top: 30px;
+    text-align: center;
+    left: 170px;
+    background: #DA635C;
+    border-color: #6e9799 ;
+    width: 800px;	height: 200px;
+    border-radius: 10px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.media{
+    size: 200px;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-bottom: -60px;
+    padding: 20px;
+}
+h3{
+    font-family:bahnschrift ;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }

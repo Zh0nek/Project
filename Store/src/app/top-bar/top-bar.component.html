@@ -1,0 +1,17 @@
+<div class="header_container">
+  <div class="header_columns">
+    <div class="col-1 header_column">
+      <div class="header_title">
+        <h3>Online Shop of Sneakers</h3>
+      </div>
+    </div>
+    <div class="col-2 header_column">
+      <div class="social">
+        <div class="col-3 header_column" id="log">
+          <a [routerLink]="['login']" *ngIf = "!isLogin"><button>Login</button></a>
+          <a [routerLink]="['login']" *ngIf = "isLogin"><button>Logout</button></a>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>

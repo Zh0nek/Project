@@ -1,0 +1,43 @@
+
+<div *ngIf="product">
+  <h2 id="top">Product Details</h2>
+  <!-- <a href="{{product.url}}"></a> -->
+  <h1 id="des">{{ product.description }}</h1>
+  
+  <div class = model>
+  <h2>Product name: {{product.name}} </h2>
+ <br>
+  <h2>Price: {{product.price}}</h2>
+  <br>
+  <h2>Left products  : {{product.count}}</h2>
+  <br>
+  <a href="#"> <img src="{{product.image}} "  height="300" width="350" alt=""></a>
+  
+  <br>
+  </div>
+  <div id="bottom">
+  <button (click)="addToCart(product)">Add to cart</button><br>
+<a href="https://telegram.me/share/url?url=#" data-text="Take a look at this new item! You can read more information there!:" class = "btnShare">Share</a>
+
+
+<div class="main-area">
+  <h1 align="center" [routerLink]="'/feedback'">Feedback</h1>
+  <div class="mb-3"> 
+    <label class="title">Title</label>
+    <input [(ngModel)] = "title">
+    <label class="title">Body</label>
+    <input [(ngModel)] = "body"> 
+    <button class="bottom" (click)="addComment()" *ngIf="post">Post</button>
+    <button class="bottom" (click)="changeComment()" *ngIf="!post">Change</button>
+    <button class="bottom" (click)="fromChangeToPost()" *ngIf="!post">Cancel</button>
+    <br>
+  </div>
+</div>
+<div class = "comments">
+  <div class = "comments2" *ngFor = "let comment of comments">
+    <button class = "comments3" (click)="deleteComment(comment)">X</button>
+    <button class = "comments3" (click)="fromPostToChange(comment)">Change</button>
+    {{comment.title}} : {{comment.body}}
+  </div>
+</div>
+</div>
